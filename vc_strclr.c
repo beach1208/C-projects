@@ -1,3 +1,10 @@
+/* ************************************ */
+/*                                      */
+/* vc_strclr.c                 */
+/*                                      */
+/* By:Nagisa           */
+/*                                      */
+/* ************************************ */
 #include <stdio.h>
 #include <string.h>
 void vc_strclr(char *s)
@@ -9,12 +16,4 @@ void vc_strclr(char *s)
         printf("%s", s);
         i++;
     }
-}
-
-int main()
-{
-    char str[] = "Hello";
-    char *str1 = str;
-    vc_strclr(str1);
-    return 0;
 }

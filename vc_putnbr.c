@@ -1,9 +1,15 @@
+/* ************************************ */
+/*                                      */
+/* vc_putnbr.c                 */
+/*                                      */
+/* By:Nagisa           */
+/*                                      */
+/* ************************************ */
 #include <stdio.h>
 #include <unistd.h>
 
 void vc_putnbr(int n)
 {
-    // write(1, &n, 1);
     write(1, &n, sizeof(n));
 }
 
@@ -25,10 +31,4 @@ int my_put_nbr(int n)
         vc_putnbr(n % 10 + '0');
     }
     return (n);
-}
-
-int main()
-{
-    my_put_nbr((10));
-    return 0;
 }

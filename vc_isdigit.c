@@ -1,3 +1,10 @@
+/* ************************************ */
+/*                                      */
+/* vc_isdigit.c                 */
+/*                                      */
+/* By:Nagisa           */
+/*                                      */
+/* ************************************ */
 #include <ctype.h>
 int vc_isdigit(int n)
 {
@@ -7,8 +14,3 @@ int vc_isdigit(int n)
     }
     return 0;
 }
-
-// int main()
-// {
-//     printf("%d", vc_isdigit(0));
-// }

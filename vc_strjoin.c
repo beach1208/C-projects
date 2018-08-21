@@ -1,3 +1,10 @@
+/* ************************************ */
+/*                                      */
+/* vc_strjoin.c                 */
+/*                                      */
+/* By: Nagisa          */
+/*                                      */
+/* ************************************ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -26,15 +33,4 @@ char *vc_strjoin(char *s1, char *s2)
         }
     }
     return fresh;
-}
-
-int main()
-{
-    /* code */
-    char str1[] = "HelloVancouver";
-    char str2[] = "WorldTomorrow";
-    char *s1 = str1;
-    char *s2 = str2;
-    printf("%s", vc_strjoin(s1, s2));
-    return 0;
 }
