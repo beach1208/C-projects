@@ -6,8 +6,7 @@
 /*                                      */
 /* ************************************ */
 
-#include <stdio.h>
-#include <stdlib.h>
+#include "libvc.h"
 
 int vc_isascii(int c)
 {
