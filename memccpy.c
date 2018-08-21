@@ -1,5 +1,4 @@
- #include<stdio.h>
- 
+// Juan Aguas
  typedef unsigned int size_t;
  void *memccpy (void *dest, const void *src, int c, size_t n)
  {
@@ -19,17 +18,4 @@
          c2[i] = c1[i];
          }
      }
- }
-
- int main()
- {
-    char string1[60] = "Programming is sooo much FUN! specially under pressure";
-    char buffer[61];
-    char *pdest;
-   
-    printf( "Source: %s\n", string1 );
-    pdest = memccpy( buffer, string1, '!', 42);
-    printf( "Result: %s\n", buffer );
-   
-    return 0;
  }

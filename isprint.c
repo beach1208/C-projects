@@ -1,3 +1,5 @@
+// Juan Aguas
+
 int vc_str_is_printable(char *str)
 {
   int i;
