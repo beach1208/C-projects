@@ -1,17 +1,25 @@
 /* ************************************ */
 /*                                      */
-/* strcmp.c                             */
+/* vc_strncat.c                         */
 /*                                      */
 /* By: Nagisa, Marla, Kenta and Juan    */
 /*                                      */
 /* ************************************ */
 
-int strcmp(char *s1, char *s2)
+char *vc_strncat(char *dest, char *src, int n)
 {
-  while (*s1 && (*s1 == *s2))
+  int i;
+  int j;
+
+  i = 0;
+  j = 0;
+  while (dest[i])
+    i++;
+  while ((j < n) && src[j])
   {
-    s1++;
-    s2++;
+    dest[i + j] = src[j];
+    j++;
   }
-  return *(unsigned char *)s1 - *(unsigned char *)s2;
+  dest[i + j] = '\0';
+  return dest;
 }

@@ -6,7 +6,7 @@
 /*                                      */
 /* ************************************ */
 
-#include <stdio.h>
+#include "libvc.h"
 
 void vc_striter(char *s, void (*f)(char))
 {

@@ -6,8 +6,7 @@
 /*                                      */
 /* ************************************ */
 
-#include <stdio.h>
-#include <stdlib.h>
+#include "libvc.h"
 
 void *vc_memchr(const void *s, int c, size_t n)
 {

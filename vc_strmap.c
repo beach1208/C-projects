@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include "libvc.h"
 
 char *vc_strmap(char const *s, void (*f)(char))
 {
@@ -6,8 +6,8 @@ char *vc_strmap(char const *s, void (*f)(char))
 	char *str;
 
 	i = 0;
-	if (s == NULL || f == NULL)
-		return (NULL);
+	if (s == '\0' || f == '\0')
+		return ('\0');
 	str = (char *)malloc((vc_strlen(s) + 1) * sizeof(char));
 	if (str)
 	{

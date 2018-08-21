@@ -5,10 +5,7 @@
 /* By: Kenta                            */
 /*                                      */
 /* ************************************ */
-
-#include <stdio.h>
-#include <stdlib.h>
-
+#include "libvc.h"
 void *vc_memalloc(size_t size)
 {
   char *ptr = malloc(sizeof size);

@@ -1,13 +1,11 @@
 /* ************************************ */
 /*                                      */
-/* vc_strjoin.c                 */
+/* vc_strjoin.c                         */
 /*                                      */
-/* By: Nagisa          */
+/* By: Nagisa                           */
 /*                                      */
 /* ************************************ */
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include "libvc.h"
 char *vc_strjoin(char *s1, char *s2)
 {
     int s1len = strlen(s1);
@@ -20,9 +18,9 @@ char *vc_strjoin(char *s1, char *s2)
     {
         for (int j = 0; j < s2len + 1; j++)
         {
-            if (fresh == NULL)
+            if (fresh == '\0')
             {
-                return NULL;
+                return '\0';
             }
             else
             {

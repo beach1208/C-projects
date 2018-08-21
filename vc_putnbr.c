@@ -1,12 +1,11 @@
 /* ************************************ */
 /*                                      */
-/* vc_putnbr.c                 */
+/* vc_putnbr.c                          */
 /*                                      */
-/* By:Nagisa           */
+/* By:Nagisa                            */
 /*                                      */
 /* ************************************ */
-#include <stdio.h>
-#include <unistd.h>
+#include "libvc.h"
 
 void vc_putnbr(int n)
 {

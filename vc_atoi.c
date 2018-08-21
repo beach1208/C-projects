@@ -1,12 +1,12 @@
 /* ************************************ */
 /*                                      */
-/* atoi.c                               */
+/* vc_atoi.c                            */
 /*                                      */
 /* By: Nagisa, Marla, Kenta and Juan    */
 /*                                      */
 /* ************************************ */
 
-int atoi(char *str)
+int vc_atoi(char *str)
 {
   int result;
   int sign;

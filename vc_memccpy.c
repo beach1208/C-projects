@@ -1,12 +1,12 @@
 /* ************************************ */
 /*                                      */
-/* strrchr.c                            */
+/* vc_memccpy.c                         */
 /*                                      */
 /* By: Juan                             */
 /*                                      */
 /* ************************************ */
 #include "libvc.h"
-void *memccpy (void *dest, const void *src, int c, size_t n)
+void *vc_memccpy (void *dest, const void *src, int c, size_t n)
 {
     char *c1 = (char *)src;
     char *c2 = (char *)dest;

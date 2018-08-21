@@ -1,12 +1,12 @@
 /* ************************************ */
 /*                                      */
-/* strncpy.c                            */
+/* vc_strncpy.c                         */
 /*                                      */
 /* By: Nagisa, Marla, Kenta and Juan    */
 /*                                      */
 /* ************************************ */
 
-char *strncpy(char *dest, char *src, unsigned int n)
+char *vc_strncpy(char *dest, char *src, unsigned int n)
 {
   unsigned int i;
 

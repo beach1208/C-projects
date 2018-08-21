@@ -5,7 +5,7 @@
 /* By: Marla                            */
 /*                                      */
 /* ************************************ */
-#include <stdlib.h>
+#include "libvc.h"
 
 void vc_putendl(char const *s)
 {

@@ -6,8 +6,7 @@
 /*                                      */
 /* ************************************ */
 
-#include <stdio.h>
-#include <stdlib.h>
+#include "libvc.h"
 
 static int length(char const *str)
 {

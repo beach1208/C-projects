@@ -1,13 +1,13 @@
 /* ************************************ */
 /*                                      */
-/* strlcat.c                            */
+/* vc_strlcat.c                         */
 /*                                      */
 /* By: Nagisa, Marla, Kenta and Juan    */
 /*                                      */
 /* ************************************ */
 
 
-static int strlen(char *str)
+static int vc_strlen(char *str)
 {
   int i;
   
