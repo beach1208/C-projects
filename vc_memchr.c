@@ -12,7 +12,7 @@
 void *vc_memchr(const void *s, int c, size_t n)
 {
   const char *s_copy = s;
-  const char *ptr = NULL;
+  const char *ptr = '\0';
   int i;
 
   for (i = 0; i < n; i++)
