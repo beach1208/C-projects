@@ -10,7 +10,6 @@ int counting(int n1)
         n1 = n1 / 10;
     }
     return count;
-
 }
 char *vc_itoa(int n)
 {
