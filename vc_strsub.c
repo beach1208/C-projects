@@ -5,8 +5,8 @@
 /* By: Juan                             */
 /*                                      */
 /* ************************************ */
+#include "libvc.h"
 
-typedef unsigned int size_t;
 char *vc_strsub(char const *s, size_t start, size_t len)
 {
     char *result = malloc(sizeof(char)*(len + 1));
