@@ -1,14 +1,15 @@
 /* ************************************ */
 /*                                      */
-/* vc_strdel.c                          */
+/* vc_putnbr.c                 */
 /*                                      */
-/* By: Juan                             */
+/* By:Nagisa           */
 /*                                      */
 /* ************************************ */
+#include <stdio.h>
+#include <unistd.h>
 
-void vc_strdel(char **as)
+void vc_putnbr(int n)
 {
-    free(as);
-    as[0] = '\0';
+    write(1, &n, sizeof(n));
 }
 

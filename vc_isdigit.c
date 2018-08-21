@@ -1,14 +1,16 @@
 /* ************************************ */
 /*                                      */
-/* vc_strdel.c                          */
+/* vc_isdigit.c                 */
 /*                                      */
-/* By: Juan                             */
+/* By:Nagisa           */
 /*                                      */
 /* ************************************ */
-
-void vc_strdel(char **as)
+#include <ctype.h>
+int vc_isdigit(int n)
 {
-    free(as);
-    as[0] = '\0';
+    if (n > 0)
+    {
+        return n;
+    }
+    return 0;
 }
-

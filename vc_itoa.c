@@ -1,7 +1,12 @@
-#include <stdio.h>
-#include <stdlib.h>
+/* ************************************ */
+/*                                      */
+/* vc_itoa.c                            */
+/*                                      */
+/* By: Juan                             */
+/*                                      */
+/* ************************************ */
 
-int counting(int n1)
+static int counting(int n1)
 {
     int count = 0;
     while (n1 > 0)
@@ -36,14 +41,5 @@ char *vc_itoa(int n)
         n = n / 10;
         i--;
     }
-    
     return result;
-}
-
-int main()
-{
-    int number = -1234;
-    printf("The number %d is equal to %s in string",number, vc_itoa(number));
-
-    return 0;
 }

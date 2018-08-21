@@ -1,24 +1,31 @@
-#include <stdio.h>
+/* ************************************ */
+/*                                      */
+/* strrchr.c                            */
+/*                                      */
+/* By: Juan                             */
+/*                                      */
+/* ************************************ */
 
 char *strrchr(char *str, int c)
 {
-   while(*str) 
-   {
-       if( *str == c)
-       {
-           return (char *) str;
-       }
-       str++;
-   }
-   return (char *)0;
-}
+    char *chr;
 
-int main()
-{
-    char *str = "Programming is sooo much FUN!. specially under. pressure";
-    char c = '.';
-    
-    printf("%s",strrchr(str, c));
-
-    return 0;
+    chr = '\0';
+    if (*str == (char)c)
+    {
+        chr = (char *)str;
+    }
+    while (*str)
+    {
+        if (*str == c)
+        {
+            chr = (char *)str;
+        }
+        str++;
+    }
+    if (c == '\0')
+    {
+chr = (char *)str;
+    }        
+    return (chr);
 }

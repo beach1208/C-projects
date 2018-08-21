@@ -1,18 +1,21 @@
 /* ************************************ */
 /*                                      */
-/* isprint.c                            */
+/* vc_striter.c                         */
 /*                                      */
-/* By: Juan                             */
+/* By: Kenta                            */
 /*                                      */
 /* ************************************ */
 
-int vc_str_is_printable(char *str)
+#include <stdio.h>
+
+void vc_striter(char *s, void (*f)(char))
 {
   int i;
-
   i = 0;
-  while (str[i])
-    if (!(str[i] >= ' ' && str[i] <= '~'))
-      return 0;
-  return 1;
+  while (*s)
+  {
+    (*f)(s[i]);
+    i++;
+    s++;
+  }
 }
