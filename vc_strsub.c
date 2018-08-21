@@ -1,4 +1,11 @@
-// Juan Aguas
+/* ************************************ */
+/*                                      */
+/* vc_strsub.c                          */
+/*                                      */
+/* By: Juan                             */
+/*                                      */
+/* ************************************ */
+
 typedef unsigned int size_t;
 char *vc_strsub(char const *s, size_t start, size_t len)
 {
