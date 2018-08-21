@@ -5,7 +5,7 @@
 /* By: Juan                             */
 /*                                      */
 /* ************************************ */
-typedef unsigned int size_t;
+#include "libvc.h"
 void *memccpy (void *dest, const void *src, int c, size_t n)
 {
     char *c1 = (char *)src;
