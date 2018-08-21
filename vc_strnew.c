@@ -2,9 +2,10 @@
 /*                                      */
 /* vc_strnew.c                          */
 /*                                      */
-/* By: Juan, Kenta, Marla, Nagisa       */
+/* By: Marla                            */
 /*                                      */
 /* ************************************ */
+
 #include <stdio.h>
 #include <stdlib.h>
 

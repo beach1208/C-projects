@@ -38,9 +38,9 @@ char *vc_strtrim(char const *s)
   }
   newS[j] = '\0';
 
-  if (newS == NULL)
+  if (newS == '\0')
   {
-    return NULL;
+    return '\0';
   }
   else
   {
