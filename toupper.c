@@ -6,7 +6,7 @@
 /*                                      */
 /* ************************************ */
 
-int vc_str_is_uppercase(char *str)
+int toupper(char *str)
 {
   int i;
 

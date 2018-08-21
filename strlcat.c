@@ -7,7 +7,7 @@
 /* ************************************ */
 
 
-static int vc_strlen(char *str)
+static int strlen(char *str)
 {
   int i;
   

@@ -6,7 +6,7 @@
 /*                                      */
 /* ************************************ */
 
-char *vc_strncat(char *dest, char *src, int n)
+char *strncat(char *dest, char *src, int n)
 {
   int i;
   int j;

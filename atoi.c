@@ -6,7 +6,7 @@
 /*                                      */
 /* ************************************ */
 
-int vc_atoi(char *str)
+int atoi(char *str)
 {
   int result;
   int sign;

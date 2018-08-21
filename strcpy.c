@@ -6,7 +6,7 @@
 /*                                      */
 /* ************************************ */
 
-char *vc_strcpy(char *dest, char *src)
+char *strcpy(char *dest, char *src)
 {
   int i;
 

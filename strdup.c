@@ -8,7 +8,7 @@
 
 #include <stdlib.h>
 
-char *vc_strdup(char *src)
+char *strdup(char *src)
 {
     char *dst;
     int i;

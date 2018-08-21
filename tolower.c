@@ -6,7 +6,7 @@
 /*                                      */
 /* ************************************ */
 
-int vc_str_is_lowercase(char *str)
+int tolower(char *str)
 {
   int i;
 

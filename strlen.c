@@ -6,7 +6,7 @@
 /*                                      */
 /* ************************************ */
 
-int vc_strlen(char *str)
+int strlen(char *str)
 {
   int i;
 

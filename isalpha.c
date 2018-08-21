@@ -6,7 +6,7 @@
 /*                                      */
 /* ************************************ */
 
-int vc_str_is_alpha(char *str)
+int isalpha(char *str)
 {
   int i;
 
