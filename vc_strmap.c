@@ -6,9 +6,10 @@
 /*                                      */
 /* ************************************ */
 
-#include "libvc.h"
+#include <stdio.h>
+#include <stdlib.h>
 
-int vc_strlen(char *str)
+static int vc_strlen(char *str)
 {
   int counter = 0;
   while (*str)
@@ -19,7 +20,7 @@ int vc_strlen(char *str)
   return counter;
 }
 
-char *vc_strmap(char const *s, void (*f)(char))
+char *vc_strmap(char const *s, char (*f)(char))
 {
   int i;
   int len = vc_strlen((char *)s);
@@ -28,7 +29,7 @@ char *vc_strmap(char const *s, void (*f)(char))
 
   for (i = 0; i < len; i++)
   {
-    (*f)(s[i]);
+    str[i] = (*f)(s[i]);
   }
   str[i] = '\0';
   return str;
