@@ -6,7 +6,9 @@
 /*                                      */
 /* ************************************ */
 
-#include "libvc.h"
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 void vc_bzero(void *s, size_t n)
 {
