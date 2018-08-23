@@ -10,14 +10,11 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-void vc_striter(char *s, void (*f)(char))
+// Not sure why second argument has to take a char pointer as an argument
+void vc_striter(char *s, void (*f)(char *))
 {
-  int i;
-  i = 0;
   while (*s)
   {
-    (*f)(s[i]);
-    i++;
-    s++;
+    (*f)(s++);
   }
 }
