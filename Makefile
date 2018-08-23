@@ -6,12 +6,10 @@
 # /*                                      */
 # /* ************************************ */
 
-all: o a clean
+all: libvc.a
 
-o:
+libvc.a:
 	gcc -c *.c
-
-a:
 	ar -cvq libvc.a *.o
 
 clean:
