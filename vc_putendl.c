@@ -71,6 +71,4 @@ void vc_putendl(char const *s)
 	tmp[len] = '\n';
 	write(s, tmp, len + 1);
 	vc_strdel(&tmp);
-    
-    return(s, 1);
 }
