@@ -5,7 +5,10 @@
 /* By: Juan                             */
 /*                                      */
 /* ************************************ */
-#include "libvc.h"
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+
 void *vc_memccpy (void *dest, const void *src, int c, size_t n)
 {
     char *c1 = (char *)src;

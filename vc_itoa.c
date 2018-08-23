@@ -5,6 +5,9 @@
 /* By: Juan                             */
 /*                                      */
 /* ************************************ */
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 static int counting(int n1)
 {

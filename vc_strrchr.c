@@ -5,6 +5,9 @@
 /* By: Juan                             */
 /*                                      */
 /* ************************************ */
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 char *vc_strrchr(char *str, int c)
 {

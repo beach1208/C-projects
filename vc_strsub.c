@@ -5,7 +5,9 @@
 /* By: Juan                             */
 /*                                      */
 /* ************************************ */
-#include "libvc.h"
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 char *vc_strsub(char const *s, size_t start, size_t len)
 {
