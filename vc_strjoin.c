@@ -18,9 +18,9 @@ char *vc_strjoin(char *s1, char *s2)
     {
         for (int j = 0; j < s2len + 1; j++)
         {
-            if (fresh == '\0')
+            if (fresh == NULL)
             {
-                return '\0';
+                return NULL;
             }
             else
             {
@@ -32,14 +32,3 @@ char *vc_strjoin(char *s1, char *s2)
     }
     return fresh;
 }
-
-// int main()
-// {
-//     char str1[] = "Hello";
-//     char str2[] = "WorldVancouver";
-//     char *s1, *s2;
-//     s1 = str1;
-//     s2 = str2;
-
-//     printf("%s", vc_strjoin(s1, s2));
-// }
