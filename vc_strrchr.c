@@ -1,12 +1,12 @@
 /* ************************************ */
 /*                                      */
-/* strrchr.c                            */
+/* vc_strrchr.c                         */
 /*                                      */
 /* By: Juan                             */
 /*                                      */
 /* ************************************ */
 
-char *strrchr(char *str, int c)
+char *vc_strrchr(char *str, int c)
 {
     char *chr;
 

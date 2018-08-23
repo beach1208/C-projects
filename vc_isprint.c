@@ -1,12 +1,12 @@
 /* ************************************ */
 /*                                      */
-/* isprint.c                            */
+/* vc_isprint.c                         */
 /*                                      */
 /* By: Juan                             */
 /*                                      */
 /* ************************************ */
 
-int isprint(char *str)
+int vc_isprint(char *str)
 {
   int i;
 

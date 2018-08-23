@@ -1,11 +1,11 @@
 /* ************************************ */
 /*                                      */
-/* vc_memset.c                 */
+/* vc_memset.c                          */
 /*                                      */
-/* By:Nagisa           */
+/* By:Nagisa                            */
 /*                                      */
 /* ************************************ */
-#include <string.h>
+#include "libvc.h"
 
 void *vc_memset(void *b, int c, size_t len)
 {

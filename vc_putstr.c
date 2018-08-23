@@ -1,17 +1,15 @@
 /* ************************************ */
 /*                                      */
-/* strlen.c                             */
+/* vc_putstr.c                          */
 /*                                      */
 /* By: Nagisa, Marla, Kenta and Juan    */
 /*                                      */
 /* ************************************ */
 
-int strlen(char *str)
-{
-  int i;
+#include "libvc.h"
 
-  i = 0;
-  while (*str++ != '\0')
-    i++;
-  return i;
+void vc_putstr(char *str)
+{
+  while (*str != '\0')
+    putchar(*str++);
 }

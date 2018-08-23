@@ -1,14 +1,14 @@
 /* ************************************ */
 /*                                      */
-/* strdup.c                             */
+/* vc_strdup.c                          */
 /*                                      */
 /* By: Nagisa, Marla, Kenta and Juan    */
 /*                                      */
 /* ************************************ */
 
-#include <stdlib.h>
+#include "libvc.h"
 
-char *strdup(char *src)
+char *vc_strdup(char *src)
 {
     char *dst;
     int i;
@@ -17,7 +17,7 @@ char *strdup(char *src)
     while (src[i])
         i++;
     if (!(dst = (char *)malloc(sizeof(char) * (i + 1))))
-        return NULL;
+        return '\0';
     i = -1;
     while (src[++i])
         dst[i] = src[i];

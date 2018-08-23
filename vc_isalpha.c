@@ -1,15 +1,22 @@
 /* ************************************ */
 /*                                      */
-/* putstr.c                             */
+/* vc_isalpha.c                         */
 /*                                      */
 /* By: Nagisa, Marla, Kenta and Juan    */
 /*                                      */
 /* ************************************ */
 
-#include <stdio.h>
-
-void putstr(char *str)
+int vc_isalpha(char *str)
 {
-  while (*str != '\0')
-    putchar(*str++);
+  int i;
+
+  i = 0;
+  while (str[i])
+  {
+    if (!((str[i] >= 'A' && str[i] <= 'Z') \
+          || (str[i] >= 'a' && str[i] <= 'z')))
+      return 0;
+    i++;
+  }
+  return 1;
 }

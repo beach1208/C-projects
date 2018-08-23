@@ -5,8 +5,8 @@
 /* By:Nagisa           */
 /*                                      */
 /* ************************************ */
-#include <stdio.h>
-#include <string.h>
+#include "libvc.h"
+
 void vc_strclr(char *s)
 {
     int i = 0;

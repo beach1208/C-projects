@@ -7,6 +7,7 @@
 /* ************************************ */
 
 #include <stdio.h>
+#include <unistd.h>
 #include <stdlib.h>
 
 static int length(char const *str)
@@ -38,9 +39,9 @@ char *vc_strtrim(char const *s)
   }
   newS[j] = '\0';
 
-  if (newS == '\0')
+  if (newS == NULL)
   {
-    return '\0';
+    return NULL;
   }
   else
   {

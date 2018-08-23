@@ -1,4 +1,11 @@
-#include <unistd.h>
+/* ************************************ */
+/*                                      */
+/* vc_strlen.c                          */
+/*                                      */
+/* By: Nagisa, Marla, Kenta and Juan    */
+/*                                      */
+/* ************************************ */
+#include "libvc.h"
 
 size_t vc_strlen(const char *s)
 {

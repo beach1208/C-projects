@@ -5,8 +5,7 @@
 /* By: Marla                            */
 /*                                      */
 /* ************************************ */
-#include <stdlib.h>
-#include <unistd.h>
+#include "libvc.h"
 
 char **vc_strsplit(char const *s, char c)
 {
@@ -17,7 +16,7 @@ char **vc_strsplit(char const *s, char c)
 	char **tab;
 
 	words = 0;
-	tab = NULL;
+	tab = '\0';
 	i = 0;
 	if (s && ((tab = (char **)malloc(sizeof(*tab) * (vc_strlen(s) / 2 + 2)))))
 	{

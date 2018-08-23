@@ -5,8 +5,7 @@
 /* By: Marla                            */
 /*                                      */
 /* ************************************ */
-#include <stdio.h>
-#include <unistd.h>
+#include "libvc.h"
 
 void *ft_memcpy(void *s1, const void *s2, size_t n)
 {

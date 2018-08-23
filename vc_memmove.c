@@ -1,11 +1,11 @@
 /* ************************************ */
 /*                                      */
-/* vc_memmove.c                 */
+/* vc_memmove.c                         */
 /*                                      */
-/* By:Nagisa           */
+/* By:Nagisa                            */
 /*                                      */
 /* ************************************ */
-#include <string.h>
+#include "libvc.h"
 void *vc_memmove(void *dst, const void *src, size_t len)
 {
     for (int i = 0; i < len; i++)

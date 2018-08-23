@@ -1,11 +1,10 @@
 /* ************************************ */
 /*                                      */
-/* vc_isdigit.c                 */
+/* vc_isdigit.c                         */
 /*                                      */
-/* By:Nagisa           */
+/* By:Nagisa                            */
 /*                                      */
 /* ************************************ */
-#include <ctype.h>
 int vc_isdigit(int n)
 {
     if (n > 0)
