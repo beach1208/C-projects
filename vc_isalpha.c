@@ -5,6 +5,9 @@
 /* By: Nagisa, Marla, Kenta and Juan    */
 /*                                      */
 /* ************************************ */
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 int vc_isalpha(char *str)
 {

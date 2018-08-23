@@ -5,7 +5,9 @@
 /* By: Marla                            */
 /*                                      */
 /* ************************************ */
-#include "libvc.h"
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 char **vc_strsplit(char const *s, char c)
 {

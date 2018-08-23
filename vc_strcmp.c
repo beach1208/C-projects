@@ -6,6 +6,10 @@
 /*                                      */
 /* ************************************ */
 
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+
 int vc_strcmp(char *s1, char *s2)
 {
   while (*s1 && (*s1 == *s2))

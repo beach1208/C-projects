@@ -6,6 +6,10 @@
 /*                                      */
 /* ************************************ */
 
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+
 char *vc_strncpy(char *dest, char *src, unsigned int n)
 {
   unsigned int i;

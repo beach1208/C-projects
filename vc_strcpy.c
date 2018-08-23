@@ -5,6 +5,11 @@
 /* By: Juan, Kenta, Marla, Nagisa       */
 /*                                      */
 /* ************************************ */
+
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+
 char *ft_strcpy(char *dst, const char *src)
 {
 	int		i;

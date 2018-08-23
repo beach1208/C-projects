@@ -6,7 +6,9 @@
 /*                                      */
 /* ************************************ */
 
-#include "libvc.h"
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 void vc_putstr(char *str)
 {

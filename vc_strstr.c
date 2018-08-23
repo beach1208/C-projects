@@ -6,6 +6,10 @@
 /*                                      */
 /* ************************************ */
 
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+
 char *vc_strstr(char *str, char *to_find)
 {
   int i;

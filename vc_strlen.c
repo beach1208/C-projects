@@ -5,7 +5,9 @@
 /* By: Nagisa, Marla, Kenta and Juan    */
 /*                                      */
 /* ************************************ */
-#include "libvc.h"
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 size_t vc_strlen(const char *s)
 {

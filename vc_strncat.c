@@ -6,6 +6,10 @@
 /*                                      */
 /* ************************************ */
 
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+
 char *vc_strncat(char *dest, char *src, int n)
 {
   int i;

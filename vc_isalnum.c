@@ -7,6 +7,8 @@
 /* ************************************ */
 
 #include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 int vc_isalnum(int c)
 {

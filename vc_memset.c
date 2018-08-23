@@ -5,7 +5,10 @@
 /* By:Nagisa                            */
 /*                                      */
 /* ************************************ */
-#include "libvc.h"
+
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 void *vc_memset(void *b, int c, size_t len)
 {
