@@ -34,3 +34,14 @@ char *vc_strjoin(char *s1, char *s2)
     }
     return fresh;
 }
+
+// int main()
+// {
+//     char str1[] = "Hello";
+//     char str2[] = "WorldVancouver";
+//     char *s1, *s2;
+//     s1 = str1;
+//     s2 = str2;
+
+//     printf("%s", vc_strjoin(s1, s2));
+// }
