@@ -5,7 +5,12 @@
 /* By: Nagisa                           */
 /*                                      */
 /* ************************************ */
-#include "libvc.h"
+
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <string.h>
+
 char *vc_strjoin(char *s1, char *s2)
 {
     int s1len = strlen(s1);
@@ -18,9 +23,9 @@ char *vc_strjoin(char *s1, char *s2)
     {
         for (int j = 0; j < s2len + 1; j++)
         {
-            if (fresh == '\0')
+            if (fresh == NULL)
             {
-                return '\0';
+                return NULL;
             }
             else
             {
